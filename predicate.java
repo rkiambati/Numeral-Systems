@@ -26,7 +26,7 @@ public class predicate {
     public static void main(String[] args) {
         System.out.println("Statement: (x is prime) ∧ (x + 1337 is prime)");
         predicate n = new predicate();
-        for(int i = 0; i < 1000 ;i++){
+        for(int i = 0; i < 1000000 ;i++){
             if(predicator(i) == true){
                 System.out.println(i);
             }
